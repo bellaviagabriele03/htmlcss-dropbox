@@ -15,9 +15,7 @@ ul {
     list-style: none;
 }
 
-li {
-    margin: 0 15px;
-}
+
 
 body {
     font-family: sans-serif;
@@ -40,10 +38,12 @@ a {
 }
 
 .container-small {
-    width: 70%;
+    width: 75%;
     max-width: 1000px;
     margin: 0 auto;
 }
+
+
 
 .margin-top20 {
     margin-top: 20px;
@@ -53,12 +53,44 @@ a {
     margin-left: 15px;
 }
 
+.margin-left10 {
+    margin-left: 10px;
+}
+
 .color-black {
     color: black;
 }
 
+.color-gray {
+    color: gray;
+}
+
+.color-white {
+    color: white;
+}
+
+.margin-oriz {
+    margin: 0 15px;
+}
+
+.margin-vert{
+    margin: 15px 0;
+}
+
 .bg-light-blue {
     background-color: rgb(151, 175, 232);
+}
+
+.bg-blue {
+    background-color: rgb(25, 25, 255);
+} 
+
+.border-black-2p{
+    border: 2px solid black;
+}
+
+.border-bottom-b2p {
+    border-bottom: 2px solid black;
 }
 
 .visual-debug {
@@ -72,6 +104,15 @@ a {
 
 .width-30 {
     width: 30%;
+}
+
+
+.display-inblo{
+    display: inline-block;
+}
+
+.display-inline {
+    display: inline;
 }
 
 
@@ -100,7 +141,9 @@ a {
 .align-center {
     align-items: center;
 }
-
+.gap-30 {
+    gap: 30px;
+}
 .gap-20 {
     gap: 20px;
 }
@@ -111,8 +154,9 @@ a {
     gap: 5px;
 }
 
-
-
+.align-self-start {
+    align-self: flex-start;
+}
 
 .wrap {
     flex-wrap: wrap;
@@ -153,6 +197,15 @@ a {
 
 .c-blu {
     border: 5px solid blue;
+}
+
+.card {
+
+    width: calc(100% / 3);
+
+    /* DEBUG */
+    border: 2px solid black;
+
 }
 
 
