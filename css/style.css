@@ -89,6 +89,10 @@ a {
     border: 2px solid black;
 }
 
+.border-gray-1p {
+    border: 1px gray solid;
+}
+
 .border-bottom-b2p {
     border-bottom: 2px solid black;
 }
@@ -204,7 +208,7 @@ a {
     width: calc(100% / 3);
 
     /* DEBUG */
-    border: 2px solid black;
+    
 
 }
 
