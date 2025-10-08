@@ -23,7 +23,7 @@ body {
 
 a {
     text-decoration: none;
-    
+
 
 }
 
@@ -44,9 +44,21 @@ a {
 }
 
 
+.margin-top25 {
+    margin-top: 25px;
+
+}
 
 .margin-top20 {
     margin-top: 20px;
+}
+
+.margin-top10 {
+    margin-top: 10px;
+}
+
+.margin-top5 {
+    margin-top: 5px;
 }
 
 .margin-left15 {
@@ -73,7 +85,7 @@ a {
     margin: 0 15px;
 }
 
-.margin-vert{
+.margin-vert {
     margin: 15px 0;
 }
 
@@ -83,9 +95,9 @@ a {
 
 .bg-blue {
     background-color: rgb(25, 25, 255);
-} 
+}
 
-.border-black-2p{
+.border-black-2p {
     border: 2px solid black;
 }
 
@@ -111,7 +123,7 @@ a {
 }
 
 
-.display-inblo{
+.display-inblo {
     display: inline-block;
 }
 
@@ -145,16 +157,20 @@ a {
 .align-center {
     align-items: center;
 }
+
 .gap-30 {
     gap: 30px;
 }
+
 .gap-20 {
     gap: 20px;
 }
+
 .gap-10 {
     gap: 10px;
 }
-.gap-5{
+
+.gap-5 {
     gap: 5px;
 }
 
@@ -208,7 +224,7 @@ a {
     width: calc(100% / 3);
 
     /* DEBUG */
-    
+
 
 }
 
