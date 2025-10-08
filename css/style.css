@@ -1,0 +1,92 @@
+/******************
+*RESET
+*******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/******************
+*UTILITIES
+*******************/
+.container-normal {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* FLEXANDO */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap {
+    gap: 20px;
+}
+
+
+/******************
+*UNCOMMON
+*******************/
+
+
+/******************
+*HEADER
+*******************/
+
+
+/******************
+*MAIN
+*******************/
+
+
+
+/******************
+*FOOTER
+*******************/
+
+
+/******************
+*DUBUG
+*******************/
+
+/* body {
+    background-color: aqua;
+} */
