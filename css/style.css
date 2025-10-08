@@ -15,6 +15,20 @@ ul {
     list-style: none;
 }
 
+li {
+    margin: 0 15px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    
+
+}
+
 
 /******************
 *UTILITIES
@@ -30,6 +44,24 @@ ul {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.color-black {
+    color: black;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.visual-debug {
+    height: 600px;
+    width: 100%;
+}
+
 
 /* FLEXANDO */
 
@@ -61,15 +93,26 @@ ul {
     gap: 20px;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 
 /******************
 *UNCOMMON
 *******************/
-
+.right-list {
+    padding-bottom: 10px;
+}
 
 /******************
 *HEADER
 *******************/
+
+header {
+    height: 80px;
+    background-color: white;
+}
 
 
 /******************
