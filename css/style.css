@@ -39,13 +39,16 @@ a {
 }
 
 .container-small {
-    width: 75%;
-    max-width: 1000px;
+    width: 70%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .margin-top100 {
     margin-top: 100px;
+}
+.margin-top30 {
+    margin-top: 30px;
 }
 
 .margin-top25 {
@@ -99,6 +102,10 @@ a {
 
 .bg-blue {
     background-color: rgb(25, 25, 255);
+}
+
+.bg-black {
+    background-color: black;
 }
 
 .border-black-2p {
