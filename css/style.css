@@ -31,6 +31,7 @@ a {
 /******************
 *UTILITIES
 *******************/
+
 .container-normal {
     width: 80%;
     max-width: 1000px;
@@ -43,6 +44,9 @@ a {
     margin: 0 auto;
 }
 
+.margin-top100 {
+    margin-top: 100px;
+}
 
 .margin-top25 {
     margin-top: 25px;
@@ -122,6 +126,14 @@ a {
     width: 30%;
 }
 
+.width-60 {
+    width: 60%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
 
 .display-inblo {
     display: inline-block;
@@ -131,6 +143,21 @@ a {
     display: inline;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-4rem {
+    font-size: 3rem;
+}
+
+.text-2-2rem {
+    font-size: 2.2rem;
+}
+
+.text-2-5rem {
+    font-size: 2.5rem;
+}
 
 /* FLEXANDO */
 
@@ -228,6 +255,10 @@ a {
 
 }
 
+
+.button {
+    padding: 10px 20px;
+}
 
 
 

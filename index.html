@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox-boolean</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -26,7 +30,7 @@
                 <li class="margin-oriz"><a class="color-black" href="">Supporto</a></li>
                 <li class="margin-oriz"><a class="color-black" href="">Contatta l'ufficio vendite</a></li>
                 <li class="margin-oriz"><a class="color-black" href="">Accedi</a></li>
-                <li class="margin-oriz"><a class="button color-white" href="">Inizia</a></li>
+                <li class="margin-oriz"><a class="button color-white bg-blue" href="">Inizia</a></li>
             </ul>
             <!-- END RIGHT LIST -->
         </div>
@@ -36,12 +40,12 @@
 
         <!-- HERO SECTION -->
         <section class="bg-light-blue">
-            <div class="flex container-normal justify-center column wrap">
-                <div class="main-title">
-                    <h1>Tutto ciò che ti serve per il<br>
-                        lavoro, in un unico posto
-                    </h1>
-                </div>
+            <div class="flex container-normal column wrap">
+
+                <h1 class="text-4rem">Tutto ciò che ti serve per il<br>
+                    lavoro, in un unico posto
+                </h1>
+
                 <div class="main-content flex">
                     <div class="main-text flex column justify-around gap-5">
                         <p>Finalmente tutti i tuoi strumenti, conteuti e<br>
@@ -51,12 +55,12 @@
                             integrato per ottimizzare il flusso di lavoro<br>
                             esistente.
                         </p>
-                        <a class="button" href="">Inizia la tua prova gratuita</a>
-                        <a class="button" href="">Annulla in qualsiasi momento</a>
-                        <a href="">ICON</a>
+                        <a class="button bg-blue color-white text-center" href="">Inizia la tua prova gratuita</a>
+                        <a class="button text-center color-black" href="">Annulla in qualsiasi momento</a>
+                        <a class="color-black" href=""><i class="fa-solid fa-down-long"></i></a>
                     </div>
-                    <div class="main-img">
-                        <img src="./img/jumbo.png" alt="">
+                    <div class="main-img position-relative">
+                        <img class="position-absolute" src="./img/jumbo.png" alt="">
 
                     </div>
                 </div>
@@ -69,7 +73,7 @@
         <section>
             <div class="flex container-small">
                 <div class="width-70 flex column justify-center">
-                    <h2 class="margin-top20 margin-left15">Trova il piano business che fa per te</h2>
+                    <h2 class="margin-top20 margin-left15 text-2-2rem">Trova il piano business che fa per te</h2>
                     <ul class="flex margin-top20">
                         <li class="margin-oriz"><span class="circle c-blu"></span> <span>Fatturazione mensile</span>
                         </li>
@@ -125,7 +129,7 @@
                     </div>
                     <!-- END LIST TOP CARD  -->
 
-                    <a class="button margin-top20" href="">Prova gratis per 30 giorni</a>
+                    <a class="button margin-top20 bg-blue color-white" href="">Prova gratis per 30 giorni</a>
 
                     <!-- LINK -->
                     <div class="flex align-self-start margin-top20">
@@ -185,7 +189,7 @@
                     </div>
                     <!-- END LIST TOP CARD  -->
 
-                    <a class="button " href="">Prova gratis per 30 giorni</a>
+                    <a class="button bg-blue color-white" href="">Prova gratis per 30 giorni</a>
 
                     <!-- LINK -->
                     <div class="flex align-self-start margin-top20">
@@ -248,7 +252,7 @@
                     </div>
                     <!-- END LIST TOP CARD  -->
 
-                    <a class="button" href="">Contattaci</a>
+                    <a class="button bg-blue color-white" href="">Contattaci</a>
 
                     <!-- LINK -->
                     <div class="flex align-self-start margin-top20">
@@ -289,12 +293,13 @@
                     <div class="width-70 flex column margin-left10">
                         <h3 class="margin-top20">Enterprise</h3>
                         <span class="margin-top20"><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
-                        <p class="margin-top25">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
+                        <p class="margin-top25">Soluzioni personalizzate e supporto su misura per aiutare i
+                            professionisti IT nella gestione
                             su qualsiasi scala</p>
                     </div>
 
                     <div class="width-30 flex column align-center">
-                        <a class="button margin-top20" href="">Contatta l'ufficio vendite</a>
+                        <a class="button margin-top20 bg-blue color-white" href="">Contatta l'ufficio vendite</a>
                     </div>
                 </div>
             </div>
@@ -303,21 +308,67 @@
 
 
         <!-- PARTNER SECTION -->
-        <section>
-            <div></div>
-            <div></div>
+        <section class="margin-top100">
+            <div class="flex container-small gap-20">
+                <div class="width-60"><img src="./img/partner.png" alt=""></div>
+                <div class="width-30 text-center">
+                    <h3 class="margin-top25">Entra in contatto con un partner Dropbox</h3>
+                    <p class="margin-top20">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i
+                        servizi necessari
+                        per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
+                        supporto continui.
+                    </p>
+                    <div class="margin-top25">
+                        <a class="button border-gray-1p color-black" href="">Trova un partner</a>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- END PARTNER SECTION -->
 
 
         <!-- BUSINESS SECTION -->
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section class="margin-top100">
+            <h2 class="text-center text-2-5rem">Esegui più operazioni con Dropbox Business</h2>
+            <div class="flex container-small wrap margin-top20 gap-30">
+
+                <div class="width-30">
+                    <img src="./img/business-feature-switching-tools.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+                <div class="width-30">
+                    <img src="./img/business-feature-send-files-it.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+                <div class="width-30">
+                    <img src="./img/business-feature-coordinate-it.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+                <div class="width-30">
+                    <img src="./img/business-feature-integrations-it.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+                <div class="width-30">
+                    <img src="./img/business-feature-multi-device.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+                <div class="width-30">
+                    <img src="./img/business-feature-security.png" alt="">
+                    <h3 class="margin-top20">Passa di meno da uno strumento all'altro</h3>
+                    <p class="margin-top20">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, fogli e presentazioni di google. file microsoft office e dropbox paper direttamente da dropbox</p>
+                </div>
+
+            </div>
         </section>
         <!-- END BUSINESS SECTION -->
 
