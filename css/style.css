@@ -238,9 +238,6 @@ a {
 /******************
 *UNCOMMON
 *******************/
-.right-list {
-    padding-bottom: 10px;
-}
 
 
 .main-title {
@@ -283,6 +280,7 @@ a {
 
 .button {
     padding: 10px 20px;
+    display: inline-block;
 }
 
 
