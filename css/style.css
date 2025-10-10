@@ -155,6 +155,10 @@ a {
 }
 
 
+.width100-4 {
+    width: calc(100% / 4);
+}
+
 .display-inblo {
     display: inline-block;
 }
